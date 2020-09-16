@@ -69,7 +69,7 @@ ggplot(data = circle_data, mapping = aes(x = x, y = y)) +
 ```
 Determining the correlation coefficient for the circle dataset.
  
-```{r cor-}
+```{r cor-circle}
 circle_data %>%
   summarize(r = cor(x, y))
 ```
