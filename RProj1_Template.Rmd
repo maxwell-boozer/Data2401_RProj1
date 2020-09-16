@@ -42,10 +42,10 @@ dino_data %>%
 Plotting the Star dataset.
 
 
-```{r plot-dino, fig.height=3, fig.width=6}
-dino_data <- datasaurus_dozen %>%
+```{r plot-star, fig.height=3, fig.width=6}
+star_data <- datasaurus_dozen %>%
   filter(dataset == "star")
-ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
+ggplot(data = star_data, mapping = aes(x = x, y = y)) +
   geom_point()
 ```
 
@@ -61,9 +61,11 @@ The correlation coefficient for the Star dataset is similar to that of the Dino 
 
 (Add code and narrative as needed. Note that two R chunks are given but they are not labeled. Use the convention from above to name them appropriately.)
 
-```{r}
-
-
+```{r plot-circle, fig.height=3, fig.width=6}
+circle_data <- datasaurus_dozen %>%
+  filter(dataset == "star")
+ggplot(data = circle_data, mapping = aes(x = x, y = y)) +
+  geom_point()
 ```
 
 ```{r}
