@@ -1,5 +1,6 @@
 ---
 title: "R Project 1 - Hello R"
+author: "Max Boozer"
 date: "9/16/2020"
 output: html_document
 ---
